@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color: #47a386;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  background-color: #fff;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+body {
+  background-color: #18181a;
+  font-family: 'Poppins', sans-serif;
+  min-height: 50vh;
+  margin: 0;
+}
+
+.botones{
+  width: 200px;
+  height: 200px;
+  background: red;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.aparienciaBoton{
+  text-align: center;
+  margin: auto;
+  width: 265px;
+  height: 50px;
+  background-color: #FF0000;
+  color: #FFFFFF; 
+  font-size: 40px"
+}
+#reset {
+  margin: auto;
+  display: block;
+}
+
+  .square {
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 20px;
+   
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+  }
+  #message{
+      color: rgb(38, 0, 88);
+      border: 0;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 20px;
+      padding: 10px 25px;
+      
+  }
+  
+  #stripe{
+      background-color: #47a386;
+      height: 30px;
+      text-align: center;
+      font-size: 40px"
+  }
+  
+  .selected{
+    text-align: center;
+    background-color: red;
+
+  }
